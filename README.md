@@ -67,7 +67,7 @@ Python 3.6 , Jupyter Notebook
 
  ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/5.PNG)
  ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/6.PNG)
- ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/4.PNG)<br>
+ ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/7.PNG)<br>
 
 
 
