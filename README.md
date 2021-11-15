@@ -36,8 +36,8 @@ Python 3.6 , Jupyter Notebook
 
 ### Implementation:
 
-1. It comprises of two step process i.e. face detection (bounded face) in an image followed by emotion detection on the detected bounded face. 
-    a. Haar feature-based cascade classifiers : It detects frontal face in an image well. It is real time and faster in comparison to other face detector. This blog-post uses an        implementation from Open-CV.
+1. It comprises of two step process i.e. face detection (bounded face) in an image followed by emotion detection on the detected bounded face. <br>
+    a. Haar feature-based cascade classifiers : It detects frontal face in an image well. It is real time and faster in comparison to other face detector. This blog-post uses an        implementation from Open-CV.<br>
     b. Xception CNN Model (Mini_Xception, 2017) : We will train a classification CNN model architecture which takes bounded face (48 * 48 pixels) as input and predict       
        probobilities of 7 emtions in the final layer.
 
