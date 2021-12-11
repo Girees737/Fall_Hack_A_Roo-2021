@@ -68,7 +68,32 @@ Python 3.6 , Jupyter Notebook
  ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/5.PNG)
  ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/6.PNG)
  ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/7.PNG)<br>
+ 
+ 9. We could also see the keras visual representation of the model as follows.
 
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/10.PNG)<br>
+
+
+#### Model Training:
+
+10. Trained the model by calling fit_generator method, its was designed to train untill 110 epochs with the Early stopping, model check point and ReduceLRonPlateau as callbacks.
+
+ ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/8.PNG)<br>
+
+11. Observed that the model stopped learning and updating weights after epoch 82 and reached the train accuracy of 0.69 and validation accuracy of 0.65 as shown below.
+12. Instance of that model was saved to a path with the name below with the help of model check point.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/9.PNG)<br>
+
+
+#### Model Evaluation:
+
+13. Evaluated the model with test data and observed the performance is same as we have seen at epoch 82 during training.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/11.PNG)<br>
+
+
+### Testing the model in Real time:
 
 
 
