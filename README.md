@@ -98,7 +98,7 @@ Python 3.6 , Jupyter Notebook
 
 ### Testing the model in Real time:
 
-15. Tested the saved model on a image with multiple faces, It has identidied all the faces and assigned an emotion to them as shown below.
+15. Tested the saved model on an image with multiple faces, It has identidied all the faces and assigned an emotion to them as shown below.
 
 ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/predictions%20on%20Multiple_Faces.PNG)<br>
 
