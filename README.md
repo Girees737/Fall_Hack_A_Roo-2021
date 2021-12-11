@@ -92,8 +92,21 @@ Python 3.6 , Jupyter Notebook
 
 ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/11.PNG)<br>
 
+14. Plotted the performce of the model on test and train data with respect to accuracy and loss during training.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/Training_Val_Accuracy.PNG)<br>
 
 ### Testing the model in Real time:
+
+15. Tested the saved model on a image with multiple faces, It has identidied all the faces and assigned an emotion to them as shown below.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/predictions%20on%20Multiple_Faces.PNG)<br>
+
+### Testing the model on a live stream video:
+
+16. Tested the model on web cam stream and projected the probobilities of emotions on a given frame of image in the video as shown below.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/V_Happy.PNG)<br>
 
 
 
