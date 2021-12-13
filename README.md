@@ -108,5 +108,15 @@ Python 3.6 , Jupyter Notebook
 
 ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/V_Happy.PNG)<br>
 
+### Employing the above built model in Flask Application:
+
+17. Developed two HTML pages, one for uploading an image and another for displaying an image with predicted emitions.<br>
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/Flask_home.PNG)<br>
+
+18. Integrated the pages with python Flask application for accessing the model in client browser.<br>
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/Flask_Output.PNG)<br>
+
 
 
