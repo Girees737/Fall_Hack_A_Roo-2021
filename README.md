@@ -68,7 +68,45 @@ Python 3.6 , Jupyter Notebook
  ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/5.PNG)
  ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/6.PNG)
  ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/7.PNG)<br>
+ 
+ 9. We could also see the keras visual representation of the model as follows.
 
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/10.PNG)<br>
+
+
+#### Model Training:
+
+10. Trained the model by calling fit_generator method, its was designed to train untill 110 epochs with the Early stopping, model check point and ReduceLRonPlateau as callbacks.
+
+ ![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/8.PNG)<br>
+
+11. Observed that the model stopped learning and updating weights after epoch 82 and reached the train accuracy of 0.69 and validation accuracy of 0.65 as shown below.
+12. Instance of that model was saved to a path with the name below with the help of model check point.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/9.PNG)<br>
+
+
+#### Model Evaluation:
+
+13. Evaluated the model with test data and observed the performance is same as we have seen at epoch 82 during training.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Documentation/11.PNG)<br>
+
+14. Plotted the performce of the model on test and train data with respect to accuracy and loss during training.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/Training_Val_Accuracy.PNG)<br>
+
+### Testing the model in Real time:
+
+15. Tested the saved model on an image with multiple faces, It has identidied all the faces and assigned an emotion to them as shown below.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/predictions%20on%20Multiple_Faces.PNG)<br>
+
+### Testing the model on a live stream video:
+
+16. Tested the model on web cam stream and projected the probobilities of emotions on a given frame of image in the video as shown below.
+
+![](https://github.com/Girees737/Fall_Hack_A_Roo-2021/blob/main/Screenshots/V_Happy.PNG)<br>
 
 
 
